@@ -1,0 +1,108 @@
+///*http://www.medicinolie.dk/kea/03-annimation/Spil/index.html****/
+
+body {
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+#game_background{
+   position: relative;
+    top: 0;
+    max-width: 80%;
+    height: 80%;
+
+}
+#ken  {
+   position: absolute;
+width: 20%;
+right: 15%;
+top: 43%;
+}
+#Palm{
+  position: absolute;
+width: 32%;
+right: 69%;
+top: 17%;
+}
+#Title{
+    position: absolute;
+width: 100%;
+
+top: -10%;
+}
+#booble{
+    position: absolute;
+width: 30%;
+left: 38%;
+top: 52%;
+}
+/************** UI *******************/
+#start{
+    position: absolute;
+width: 12%;
+left: 44%;
+top: 30%;
+}
+#mute{
+    position: absolute;
+width: 4%;
+left: 91%;
+top: 65%;
+}
+#exit{
+    position: absolute;
+width: 4%;
+left: 95%;
+top: 65%;
+}
+/************** Play Game **********/
+#PalmStones{
+     position: absolute;
+width: 100%;
+bottom: 32%;
+}
+#Green{
+    position: relative;
+    top: -134px;
+    max-width: 100%;
+    height: 100%;
+}
+#Tilde{
+    position: absolute;
+width: 10%;
+left: 27%;
+top: 35%;
+}
+/************* Screen *************/
+
+#screen #game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     margin:0 auto;
+}
+
+#screen #game_background {
+    flex-grow: 1;
+    flex-basis: 1200px;
+}
+
+/*********LevelComplete************/
+#LevelComplete{
+    display: none;
+}
+#muteYouRock{
+    position: absolute;
+width: 4%;
+left: 91%;
+top: 90%;
+}
+#exitYouRock{
+    position: absolute;
+width: 4%;
+left: 95%;
+top: 90%;
+}
+
